@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = "PROPRIETARY"
   s.ios.deployment_target = '11.0'
   s.swift_version = '5'
-  s.source       = { :http => "https://merchant-plug-in.extranet.netcetera.biz/nca-348-1/readonly-dav/da-sdk-release/ios/release/#{s.version}/DA_SDK.zip" }
+  s.source       = { :http => "https://merchant-plug-in.extranet.netcetera.biz/nca-348-1/readonly-dav/dasdk-release/ios/release/#{s.version}/DA_SDK.zip" }
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
   s.ios.vendored_frameworks = 'DA_SDK.xcframework'
   s.resource_bundles = { 'DA_SDK' => ['src/dependencies/**/*.{xib,storyboard,xcassets}'] }
