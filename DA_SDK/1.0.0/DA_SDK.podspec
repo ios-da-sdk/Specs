@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DA_SDK"
-  s.version      = "1.0.0"
+  s.version      = "0.1.0"
   s.summary      = "DA SDK for iOS applications."
   s.description  = "DA SDK for iOS applications used by merchants"
   s.homepage     = "https://netcetera.com"
