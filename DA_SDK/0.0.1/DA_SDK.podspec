@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5'
   s.source       = { :http => "https://merchant-plug-in.extranet.netcetera.biz/nca-348-1/readonly-dav/dasdk-release/ios/release/#{s.version}/DA_SDK.zip" }
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
-  s.ios.vendored_frameworks = 'DA_SDK.xcframework'
-  s.resource_bundles = { 'DA_SDK' => ['src/dependencies/**/*.{xib,storyboard,xcassets}'] }
+  s.ios.vendored_frameworks = 'DA_SDK/DA_SDK.xcframework'
+  s.resources = ['DA_SDK/DA_SDK_Bundles/*.bundle']
 
 end
